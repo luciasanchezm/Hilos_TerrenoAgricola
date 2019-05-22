@@ -59,8 +59,4 @@ public class TerrenoAgricola extends JFrame implements ActionListener {
 			vectorHermanos[i].start();
 		btnIniciar.setEnabled(false);
 	}
-	
-	public static void main(String [] a) {
-		new TerrenoAgricola();
-	}
 }
